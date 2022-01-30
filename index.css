@@ -200,3 +200,50 @@ background-image: url("/images/bg.png");
           height: 50px;
           width: 100%;
       }
+      
+      .wrapper .bottom{
+        padding: 30px;
+        word-spacing: -1px;
+      }
+      .wrapper .bottom .info{
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .wrapper .bottom .input-box{
+        height: 45px;
+        margin: 15px 0 10px 0;
+      }
+      .wrapper form .input-box input{
+        height: 100%;
+        width: 50%;
+        padding-left: 14px;
+        outline: none;
+        font-size: 18px;
+        border-radius: 25px;
+        transition: all 0.4s ease;
+        
+      
+      }
+      .wrapper .bottom input[type="text"]{
+        border: 2px solid #ccc;
+      }
+      .wrapper .bottom input[type="text"]:focus,
+      .wrapper .bottom input[type="text"]:valid{
+        border-color: #6665ee;
+      }
+      .wrapper .bottom input[type="submit"]{
+        border: none;
+        cursor: pointer;
+        background: #6665ee;
+        color: #fff;
+      }
+      .wrapper .bottom input[type="submit"]:hover{
+        background: #1414b8;
+        
+      }
+      .wrapper{
+         margin: 200px;
+         background-color: rgb(71, 26, 80);
+         
+        }
+
