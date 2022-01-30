@@ -165,4 +165,29 @@ background-image: url("/images/bg.png");
         left: 60px;
         text-align: center;
         margin-top: 20%;
+        
      }
+     .container4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: space-around;
+     }
+     .cardimg1,.cardimg2,.cardimg3{
+         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+         transition:0.3s;
+         width: 20%;
+         
+        
+
+
+     }
+     .cardimg1,.cardimg2,.cardimg3:hover{
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     }
+     .desc1,.desc2,.desc3{
+         padding:2px 16px;
+     }
+     .checked {
+        color: orange;
+      }
