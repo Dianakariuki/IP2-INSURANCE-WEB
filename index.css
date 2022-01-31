@@ -87,6 +87,7 @@ border-width: thin;
     left: 550px;
     top: 100px;
     font-weight: bold;
+    color: #f2f2f2;
 }
    .sec-1{
 
@@ -269,7 +270,10 @@ background-image: url("images/bg.png");
               .sec3{
                   display: flex;
                   flex-direction: row;
-                  background-color:  rgb(46, 45, 97);
+                  
+                
+              
+               background-color:  #252B42;
                   height: 600px;
                   color: rgba(255, 255, 255, 0.904);
                   margin-top: 30px;
@@ -373,11 +377,19 @@ background-image: url("images/bg.png");
                     body{
                         width:100%;
                         float:none;
+                        flex-wrap: nowrap;
+                        height:auto;
                     }
                 }
-                @media(max-width:600px){
-                    .description,.container7,.container1{
+                @media(min-width:600px){
+                    body{
                         width:100%;
                         float:none;
+                        flex-wrap: nowrap;
+                        border: none;
+
                     }
-                }
+                } 
+                
+            
+              
